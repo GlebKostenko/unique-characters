@@ -8,7 +8,7 @@ class UniqueCharactersProxyTest {
     private UniqueCharactersProxy proxy = new UniqueCharactersProxy();
     @Test
     void makeTableFromOnesymbol() {
-        String expected = "\"h\" - 1\nq";
+        String expected = "\"h\" - 1\n";
         proxy.makeOnlyUniqueCharsTable("h");
     }
     @Test
